@@ -3,6 +3,8 @@ const { VueLoaderPlugin } = require('vue-loader');
 
 module.exports = {
 	entry: {
+		"collections": path.join(__dirname, 'src', 'collections.js'),
+		"collectionsintegration": path.join(__dirname, 'src', 'collectionsintegration.js'),
 		"admin/commands": path.join(__dirname, 'src', 'commands.js'),
 		"admin/allowed-groups": path.join(__dirname, 'src', 'allowed-groups.js'),
 	},
